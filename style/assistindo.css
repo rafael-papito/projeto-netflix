@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #141414;
+}
+.container{
+    padding: 0 2%;
+    max-width:1320px;
+    margin: 0 auto;
+}
+.logo{
+    width: 100px;
+    height:35px;
+    margin-top: 15px;
+    float: left;
+    background-image: url(../Midia/logo_netflix.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+section.assistindo{
+    display: inline-block;
+    width: 100%;
+    margin-top: 82px;
+}
+.assistindo h1{
+    width: 100%;
+    color:#fff;
+    font-size: 3.5vw;
+    font-weight: unset;
+}
+.quem{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.box-perfil{
+    width: 66%;
+    height:auto;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+.perfil1, .perfil2, .perfil3, .perfil4, .perfil5{
+    float: left;
+    width: 10vw;
+    margin: 0 13px;
+}
+.img1{
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    cursor: pointer;
+    background-image: url(../Midia/perfil_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.img2{
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    cursor: pointer;
+    background-image: url(../Midia/perfil_02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.img3{
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    cursor: pointer;
+    background-image: url(../Midia/perfil_03.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.img4{
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    cursor: pointer;
+    background-image: url(../Midia/perfil_04.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.img5{
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    cursor: pointer;
+    background-image: url(../Midia/perfil_05.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.img1:hover{
+    border: 4px solid #fff;  
+}
+.img2:hover{
+    border: 4px solid #fff;  
+}
+.img3:hover{
+    border: 4px solid #fff;  
+}
+.img4:hover{
+    border: 4px solid #fff;  
+}
+.img5:hover{
+    border: 4px solid #fff;  
+}
+h3{
+    margin-top:15px;
+    text-align: center;
+    color: #fff;
+}
+button{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 39%;
+    cursor: pointer;
+    width: 210px;
+    height:40px;
+    font-size: 20px;
+    color: grey;
+    border: 1.5px solid grey;
+    background-color:rgba(0, 0, 0, 0.1)
+}
+button:hover{
+    color: #fff;
+    border: 3px solid #fff;
+}
